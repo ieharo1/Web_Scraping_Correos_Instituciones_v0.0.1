@@ -1,0 +1,21 @@
+﻿profiles:
+  live:
+    - id: ministerio_educacion
+      url: https://educacion.gob.ec/contactos/
+    - id: sri
+      url: https://www.sri.gob.ec/contactenos
+    - id: municipio_quito
+      url: https://www.quito.gob.ec/
+  local:
+    - id: fixture_ministerio_educacion
+      url: file://fixtures/sites/ministerio_educacion/index.html
+    - id: fixture_sri
+      url: file://fixtures/sites/sri/index.html
+    - id: fixture_quito
+      url: file://fixtures/sites/quito_gob/index.html
+settings:
+  max_depth: 2
+  max_pages: 120
+  concurrency: 10
+  timeout_seconds: 15
+  same_domain_only: true

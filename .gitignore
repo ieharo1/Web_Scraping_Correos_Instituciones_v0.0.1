@@ -1,0 +1,17 @@
+﻿__pycache__/
+*.pyc
+.venv/
+.env
+
+# Generated data artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/lakehouse/bronze/*
+!data/lakehouse/bronze/.gitkeep
+data/lakehouse/silver/*
+!data/lakehouse/silver/.gitkeep
+data/lakehouse/gold/*
+!data/lakehouse/gold/.gitkeep
+data/lakehouse/contact_lakehouse.db
+data/outputs/*
+!data/outputs/.gitkeep
